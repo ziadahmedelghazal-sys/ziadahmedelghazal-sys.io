@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>application</title>
+
+    <link rel="stylesheet" href="./nav.css">
+    <link rel="stylesheet" href="./add course.css">
+</head>
+
+<body>
+    <header id="home">
+        <!-- nav bar creation -->
+        <div class="navbar">
+            <nav>
+                <a href="./home.html" id="logo">Personal Course Organizer</a>
+                <ul>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./mycourses.html">My Courses</a></li>
+                    <li><a href="./add course.html">Add Course</a></li>
+                    <li><a href="./contact us.html">Contact us</a></li>
+
+                </ul>
+            </nav>
+        </div>
+
+        <!-- form start-->
+         <div class="add-course">
+            
+                
+            
+        <div class="form-container">
+
+            <h1>Add New Course</h1>
+
+            <form action="">
+                <div class="form-group">
+                    <label for="">Course Name</label>
+                    <input type="text" required>
+                </div>
+                <div class="form-group">
+                    <label for="">Credit Hours</label>
+                    <input type="number" min="2" max="3" required>
+                </div>
+                <div class="form-group" id="instructor">
+                   <label for="">Instractor</label>
+                   <input type="text" required>
+                </div>
+                <div class="form-group" id="text">
+                   <label for="">Notes</label>
+                   <textarea name="" id="text-area"></textarea>
+
+                </div>
+                <div class="form-group" id="add">
+                    <input type="submit" value="add" id="submit">
+                </div>
+
+            </form>
+        </div>
+
+        <div class="image-content">
+            <img src="./imgs/markus-winkler-NtgKueP5eDE-unsplash.jpg" alt="">
+        </div>
+        </div>
+    </header>
+</body>
